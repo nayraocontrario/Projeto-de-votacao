@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.anhanguera {
+    margin: auto;  
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.container {
+    text-align: center;
+
+}
+
+.inicio h1 {
+    color: #e68b23;
+    font-size: 45pt;
+    text-align: center;
+    font-family: monospace;
+    padding-top: 3em;
+}
+
+.inicio p {
+    font-size: 15pt;
+    color: #1C1C1C;
+    text-align: center;
+}
+
+.inicio img {
+    padding-top: 5em;
+    border-radius: 50px;
+}
+
+.row {
+    border-radius: 50%;
+}
+.imagem1 {
+    border-radius: 50%;
+}
+.imagem2 {
+    border-radius: 50%;
+}
+.imagem3 {
+    border-radius: 50%;
+}
+.imagem4 {
+    border-radius: 50%;
+}
+
+.btn-inicio, .btn-resultado {
+    background-color: #FF8000;
+    color: #ffffff;
+    font-size: 18pt;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+div#candidatos {
+    padding: 120px 0px 120px 0px;
+    border-radius: 100px;
+}
+
+figcaption {
+    color: #610B5E;
+    text-align: center;
+    font-size: 13pt;
+}
+
+/*Formatação da Urna*/
+div#urna-votacao {
+    padding: 0px 0px 120px 0px;
+}
+
+div.tela-urna {
+    text-align: center;
+    font-size: 15pt;
+    border-radius: 10px;
+    padding-bottom: 1em;
+}
+
+div.teclado {
+    text-align: center;
+    background-color: #cecece;
+    border-radius: 10px;
+    border: 1px #610B5E solid;
+}
+
+div.teclado button{
+    margin: 10px;
+}
+/*Fim da formatação da Urna */
+
+footer {
+    height: 50%;
+    background-color: black;
+}
+
+footer h5 {
+    color: #ffffff;
+    padding-top: 15px;
+    text-align: center;
+}
